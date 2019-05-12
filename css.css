@@ -1,0 +1,358 @@
+*{margin: 0;
+padding: 0;
+font-family: Microsoft YaHei UI;
+}
+.clear{
+	clear: both;
+}
+
+/*顶部样式*/
+
+.top{
+	width: 100%;
+	height: 58px;
+	background-color: #07cbc9;
+	overflow: hidden;/*溢出部分隐藏*/ 
+	position: fixed;/*将top固定住(随滚轮移动)*/
+	top: 0;
+	left: 0;
+	z-index: 999;
+}
+.top img{
+	height: 58px;
+}
+.top .Title{
+	position:absolute;
+	margin-left:30px;
+	top:15px;
+	font-size=300px;
+	/* height=58px; */
+	/* font-family: Microsoft YaHei UI; */
+}
+.top .fir-nav{
+	float:right;
+	margin-right: 100px;
+}
+.top .fir-nav .fir-ul li,a{
+	line-height: 58px;
+	list-style: none;
+	display: inline-block; /*同行排列*/
+	margin-right: 5px;/*目录相对右边缘位置*/
+	color: #fff;
+	font-family: Microsoft YaHei UI;
+	font-weight: bold;
+	text-decoration: none;
+}
+/*背景黑色出现*/
+.top .fir-nav .fir-ul li:hover{
+	background-color: #000;
+}
+/*INTRO区*/
+.INTRO{
+	width: 100%;
+	height: 440px;
+	background-color: #fff;
+	position: relative;
+	top: 0;
+	left: 0;
+	margin: 50px 0;/*边距 0为垂直*/
+}
+.INTRO .introBg img{
+	width: 460px;
+	height: 320px;
+	position: absolute;/*相对于父元素INTRO的绝对坐标*/
+	top: 120px;
+	left: 50%;
+	margin-left: -230px;	
+}
+/*图片上方*/
+#introHead{
+	padding-top: 10px;
+	text-align: center;/*使文字居中*/
+}
+#introHead p{
+	color: #666;
+}
+#introHr{
+	width: 4%;
+	height: 2px;
+	border: none;
+	background-color: #07cbc9;
+	margin: 2px 0;
+}
+/*图片左方*/
+#introLeftTop{
+	font-size: 24px;
+	width: 130px;
+	height: 80px;
+	position: absolute;
+	top: 140px;
+	left: 50%;
+	margin-left: -380px;
+}
+#introLeftTop p{
+	text-align: center;
+}
+#introLeftLayer{
+	width: 270px;
+	height: 145px;
+	background-color: #fff;
+	opacity: 0.3;
+	position: absolute;
+	top: 120px;
+	left: 50%;
+	margin-left: -520px;	
+	margin-top: 150px;
+	padding: 4px;
+	z-index: 1;
+}
+.introLeftLayertext{
+	position: absolute;
+	top: 120px;
+	left: 50%;
+	margin-left: -520px;
+	margin-top: 150px;
+	padding: 10px;
+	z-index: 2;
+	font-size: 14px;
+}
+.introLeftLayertext input{
+	border: 1px #000 solid;
+	width: 80px;
+	height: 30px;
+	background-color: #000;
+	margin: 5px 0;
+	padding: 2px;
+	color: #fff;
+}
+.introLeftLayertext input:hover{
+	background-color: #fff;
+	color: #000;
+}
+/* 图片右方 */
+.introRightOne{
+	width: 220px;
+	border: 1px solid #07cbc9;
+	text-align: center;
+	font-size: 32px;
+	font-weight: bold;
+	padding: 5px;
+	position: absolute;
+	top: 120px;
+	left: 50%;
+	margin-left: 260px;
+}
+.introRightOne hr{
+	width: 32px;
+	height: 2px;
+	border: none;
+	background-color: #07cbc9;
+	margin: 2px 0;
+}
+.introRightTwo{
+	width: 220px;
+	border: 1px solid #07cbc9;
+	text-align: center;
+	font-size: 32px;
+	font-weight: bold;
+	padding: 5px;
+	position: absolute;
+	top: 260px;
+	left: 50%;
+	margin-left: 260px;
+}
+.introRightTwo hr{
+	width: 32px;
+	height: 2px;
+	border: none;
+	background-color: #07cbc9;
+	margin: 2px 0;
+}
+.ELEM{
+	width: 100%;
+	height: 440px;
+	background-color: #fff;
+	position: relative;
+	top: 0;
+	left: 0;
+	margin: 200px 0;
+}
+.ELEM .pct1 img{
+	width: 400px;
+	height: 420px;
+	position: absolute;/*相对于父元素ELEM的绝对坐标*/
+	top: 200px;
+	left: 20%;	
+	margin-left: -230px;	
+}
+.ELEM .pct1 .top1{
+	width: 220px;
+	border: 1px solid #07cbc9;
+	text-align: center;
+	font-size: 32px;
+	font-weight: bold;
+	padding: 5px;
+	position: absolute;
+	top: 120px;
+	left: 25%;
+	margin-left: -230px;
+}
+.ELEM .pct2 img{
+	width: 400px;
+	height: 420px;
+	position: absolute;/*相对于父元素ELEM的绝对坐标*/
+	top: 200px;
+	left: 50%; 
+	margin-left: -200px; 
+}
+.ELEM .pct2 .top2{
+	width: 220px;
+	border: 1px solid #07cbc9;
+	text-align: center;
+	font-size: 32px;
+	font-weight: bold;
+	padding: 5px;
+	position: absolute;
+	top: 120px;
+	left: 50%;
+	margin-left: -110px;
+}
+.ELEM .pct3 img{
+	width: 400px;
+	height: 420px;
+	position: absolute;/*相对于父元素ELEM的绝对坐标*/
+	top: 200px;
+	left: 84%; 
+	margin-left: -230px;
+}
+.ELEM .pct3 .top3{
+	width: 220px;
+	border: 1px solid #07cbc9;
+	text-align: center;
+	font-size: 32px;
+	font-weight: bold;
+	padding: 5px;
+	position: absolute;
+	top: 120px;
+	left: 88.5%;
+	margin-left: -230px;
+}
+/*图片上方*/
+#elemHead{
+	padding-top: 10px;
+	text-align: center;
+}
+#elemHead p{
+	color: #666;
+}
+#elemHr{
+	width: 4%;
+	height: 2px;
+	border: none;
+	background-color: #07cbc9;
+	margin: 2px 0;
+}
+/* 八块区 */
+#eight{
+	width: 100%;
+	height: 600px;
+	position:relative;
+	top:0;
+	left:0;
+	margin: 400px 0;	
+}
+#eightHead{
+	padding-top:10px;
+	text-align:center;
+	margin:200px 0;
+}
+#eightHr{
+	width:4%;
+	height: 2px;
+	border: none;
+	background-color: #07cbc9;
+	margin: 2px 0;
+}
+#eight img{
+	float: left;/*向左浮动，直到碰到父级或同级元素*/
+	width: 25%;/*页面宽度25%*/
+	height: 300px;/*300*/
+	position:relative;
+	top:200px;
+}
+#eight .text{
+	float: left;
+	width: 25%;
+	height: 300px;
+	background-color: #07cbc9;
+	color: #fff;
+	position: relative;
+	top:200px;
+}
+#download{
+	width: 100%;
+	height: 600px;
+	position:relative;
+	top:350px;
+	left:0;
+	margin: 0px 0;	/*850*/
+}
+#downHead{
+	padding-top:10px;
+	text-align:center;
+	margin:200px 0;
+	position:relative;
+}
+#downHr{
+	width:4%;
+	height: 2px;
+	border: none;
+	background-color: #07cbc9;
+	margin: 2px 0;
+	position:relative;
+	top:-198px;
+}
+.linktext {
+	text-align:center;
+	position:relative;
+	font-size:30px;
+	top:-150px;
+	color:#000;
+	z-index=1001;
+}
+.linktext a:link { /*设置超链接颜色*/
+color:#FF0000; 
+text-decoration:underline; 
+} 
+.linktext a:visited { 
+color:#00FF00; 
+text-decoration:none; 
+} 
+.linktext a:hover { 
+color:#00E3E3; 
+text-decoration:none; 
+} 
+.linktext a:active { 
+color:#FFFFFF; 
+text-decoration:none; 
+} 
+.footer {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 50px;
+    z-index: 9999;
+    background-color: rgba(255, 255, 255, 0.8)
+}
+.centers {
+    width: 700pt;
+    justify-content:center ; 
+	text-align:center;
+    display: flex;
+    margin: 0 auto;
+}
+#introduce{}
+#element{}
+#playgame{}
+#downloadgame{}
