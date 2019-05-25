@@ -318,7 +318,7 @@ font-family: Microsoft YaHei UI;
 	font-size:30px;
 	top:-150px;
 	color:#000;
-	z-index=1001;
+	z-index: 1001;
 }
 .linktext a:link { /*设置超链接颜色*/
 color:#FF0000; 
@@ -334,7 +334,7 @@ text-decoration:none;
 } 
 .linktext a:active { 
 color:#FFFFFF; 
-text-decoration:none; 
+text-decoration:none;
 } 
 .footer {
     position: fixed;
