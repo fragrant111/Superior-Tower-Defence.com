@@ -336,19 +336,19 @@ text-decoration:none;
 color:#FFFFFF; 
 text-decoration:none;
 } 
-.introLeftLayertext a:link { /*设置超链接颜色*/
+#introLeftTop a:link { /*设置超链接颜色*/
 color:#BE77FF; 
 text-decoration:underline; 
 } 
-.introLeftLayertext a:visited { 
+#introLeftTop a:visited { 
 color:#E6CAFF; 
 text-decoration:none; 
 } 
-.introLeftLayertext a:hover { 
+#introLeftTop a:hover { 
 color:#00E3E3; 
 text-decoration:none; 
 } 
-.introLeftLayertext a:active { 
+#introLeftTop a:active { 
 color:#FFFFFF; 
 text-decoration:none;
 } 
