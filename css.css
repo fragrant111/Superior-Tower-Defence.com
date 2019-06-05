@@ -88,7 +88,7 @@ font-family: Microsoft YaHei UI;
 	position: absolute;
 	top: 140px;
 	left: 50%;
-	margin-left: -380px;
+	margin-left: -500px;
 }
 #introLeftTop p{
 	text-align: center;
@@ -110,11 +110,11 @@ font-family: Microsoft YaHei UI;
 	position: absolute;
 	top: 120px;
 	left: 50%;
-	margin-left: -520px;
+	margin-left: -510px;
 	margin-top: 150px;
 	padding: 10px;
 	z-index: 2;
-	font-size: 14px;
+	font-size: 24px;
 }
 .introLeftLayertext input{
 	border: 1px #000 solid;
@@ -333,6 +333,22 @@ color:#00E3E3;
 text-decoration:none; 
 } 
 .linktext a:active { 
+color:#FFFFFF; 
+text-decoration:none;
+} 
+.introLeftLayertext a:link { /*设置超链接颜色*/
+color:#BE77FF; 
+text-decoration:underline; 
+} 
+.introLeftLayertext a:visited { 
+color:#E6CAFF; 
+text-decoration:none; 
+} 
+.introLeftLayertext a:hover { 
+color:#00E3E3; 
+text-decoration:none; 
+} 
+.introLeftLayertext a:active { 
 color:#FFFFFF; 
 text-decoration:none;
 } 
